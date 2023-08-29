@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Relative Positioning */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+}
+
+/* Absolute Positioning */
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Fixed Positioning */
+body {
+  position: relative;
+}
+
+/* Sticky Positioning */
+nav {
+  position: sticky;
+  top: 0;
+}
+
+/* Float */
+nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Flexbox */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+}
